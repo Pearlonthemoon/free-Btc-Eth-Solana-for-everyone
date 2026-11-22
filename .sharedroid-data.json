@@ -1,0 +1,153 @@
+{
+  "config": {
+    "appName": "PulseUtility",
+    "packageId": "com.sharedroid.pulseutility",
+    "version": "1.0.0",
+    "tagline": "Offline-ready Android toolkit with direct creator payout split",
+    "description": "A lightweight Android utility app where users unlock or run sessions with transparent crypto revenue sharing directly to the creator.",
+    "downloadModel": "supporter_pwyw",
+    "downloadPriceUsd": 4.99,
+    "runShareUsd": 0.25,
+    "creatorSharePercent": 50,
+    "revenueMode": "hybrid",
+    "wallets": [
+      {
+        "id": "w-btc-primary",
+        "chain": "BTC",
+        "network": "Bitcoin Mainnet",
+        "label": "Primary BTC Vault",
+        "address": "1GAFFGgd4EeE8eznrtN1KXVbUeUu9BpzAf",
+        "splitPercent": 60,
+        "enabled": true
+      },
+      {
+        "id": "w-eth-primary",
+        "chain": "ETH",
+        "network": "BNB Smart Chain (BEP20)",
+        "label": "ETH / BSC Creator Wallet",
+        "address": "0x4f300bfa5910c56c6df0425a644bde0feef7d3cb",
+        "splitPercent": 25,
+        "enabled": true
+      },
+      {
+        "id": "w-sol-primary",
+        "chain": "SOL",
+        "network": "Solana Mainnet",
+        "label": "SOL Fast Payout",
+        "address": "9wDweULBurfyEUyQrzVqhDys7b1Eyj5qfniCWwb9YPEh",
+        "splitPercent": 15,
+        "enabled": true
+      }
+    ],
+    "updatedAt": "2026-11-22T18:56:42.816Z"
+  },
+  "shareholders": [],
+  "events": [],
+  "stats": {
+    "totalDownloads": 0,
+    "totalRuns": 0,
+    "totalGrossUsd": 0,
+    "totalCreatorShareUsd": 0,
+    "totalParticipantShareUsd": 0,
+    "pendingShareUsd": 0,
+    "settledShareUsd": 0,
+    "pendingParticipantUsd": 0,
+    "settledParticipantUsd": 0,
+    "totalParticipantShares": 0,
+    "byChain": {
+      "BTC": {
+        "shareUsd": 0,
+        "cryptoTotal": 0,
+        "count": 0
+      },
+      "LN": {
+        "shareUsd": 0,
+        "cryptoTotal": 0,
+        "count": 0
+      },
+      "ETH": {
+        "shareUsd": 0,
+        "cryptoTotal": 0,
+        "count": 0
+      },
+      "SOL": {
+        "shareUsd": 0,
+        "cryptoTotal": 0,
+        "count": 0
+      },
+      "USDT": {
+        "shareUsd": 0,
+        "cryptoTotal": 0,
+        "count": 0
+      },
+      "LTC": {
+        "shareUsd": 0,
+        "cryptoTotal": 0,
+        "count": 0
+      }
+    }
+  },
+  "campaigns": [
+    {
+      "id": "cmp-x-daily",
+      "title": "Daily X / Twitter Launch Post",
+      "channel": "x",
+      "headline": "Install PulseUtility on Android",
+      "body": "Download PulseUtility on Android directly in one tap. Fast offline crypto & sats utility with transparent creator support.",
+      "cadence": "daily",
+      "active": true,
+      "postsCount": 0,
+      "lastPostedAt": null
+    },
+    {
+      "id": "cmp-tg-daily",
+      "title": "Telegram Community Broadcast",
+      "channel": "telegram",
+      "headline": "PulseUtility Android Release",
+      "body": "Try our lightweight Android utility app — scan or tap to install directly on Android without waiting for store delays.",
+      "cadence": "daily",
+      "active": true,
+      "postsCount": 0,
+      "lastPostedAt": null
+    },
+    {
+      "id": "cmp-wa-daily",
+      "title": "WhatsApp Status & Group Share",
+      "channel": "whatsapp",
+      "headline": "Get PulseUtility for Android",
+      "body": "Install PulseUtility on your Android phone in seconds. Includes live multi-chain converter and offline support.",
+      "cadence": "daily",
+      "active": true,
+      "postsCount": 0,
+      "lastPostedAt": null
+    },
+    {
+      "id": "cmp-rd-weekly",
+      "title": "Reddit Android & Crypto Showcase",
+      "channel": "reddit",
+      "headline": "Built an installable Android app with transparent BTC/ETH/SOL creator payouts",
+      "body": "Check out our Android PWA & Kotlin app — open the download link on Android to install or inspect the open payout split.",
+      "cadence": "daily",
+      "active": true,
+      "postsCount": 0,
+      "lastPostedAt": null
+    }
+  ],
+  "channelMetrics": [
+    {
+      "channel": "direct",
+      "visits": 1,
+      "downloads": 1,
+      "runs": 0,
+      "creatorShareUsd": 50
+    }
+  ],
+  "platformChecklist": {
+    "google-play": false,
+    "github-fdroid": false,
+    "samsung-galaxy": false,
+    "amazon-appstore": false,
+    "google-search": true,
+    "product-hunt": false
+  }
+}

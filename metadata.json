@@ -1,0 +1,6 @@
+{
+  "name": "ShareDroid",
+  "description": "Configure BTC and multi-chain wallet addresses, distribute your installable Android app across platforms, and earn shares on every download and run.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
